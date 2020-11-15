@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Профиль интернет магазина PODIUM</title>
+    <link rel="stylesheet" href="./css/styleProfile.css">
+</head>
+<body>
+    <div class="container">
+        <form action="./action_page.php">
+          <a class="glav" href="./index.html">На главную</a>
+          <label for="fname">Имя</label>
+          <input type="text" id="fname" name="firstname" placeholder="Ваше имя..">
+      
+          <label for="lname">Фамилия</label>
+          <input type="text" id="lname" name="lastname" placeholder="Ваша фамилия..">
+      
+          <label for="country">Город</label>
+          <select id="country" name="country">
+            <option value="australia">Владивосток</option>
+            <option value="canada">Артём</option>
+            <option value="usa">Уссурийск</option>
+          </select>
+      
+          <label for="subject">Напишите о ваших интересах</label>
+          <textarea id="subject" name="subject" placeholder="Написать нечто.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Сохранить">
+      
+        </form>
+      </div>
+      <script src="/index.js"></script>
+</body>
+</html>
